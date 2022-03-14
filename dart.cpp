@@ -30,7 +30,7 @@ int main()
 							}
 							if(a*b+c*d+e*f==zahl){
 								cout << b << "*" << a << "+" << d << "*" << c << "+" << f << "*" << e << endl;
-								//return 0;
+								//return 0; //uncomment for only first possibility
 							}
 						}
 					}
@@ -38,7 +38,7 @@ int main()
 			}
 		}
 	}
-system("pause");
+//system("pause"); //uncomment on Windows
   return 0;
 }
 //g++ darthelp.cpp -o darthelp
